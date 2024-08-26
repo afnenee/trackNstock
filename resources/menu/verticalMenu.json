@@ -1,0 +1,201 @@
+{
+  "menu": [
+    {
+      "url": "/dashboard/Analytics",
+      "name": "Dashboards",
+      "icon": "menu-icon tf-icons bx bx-home-smile",
+      "slug": "dashboard",
+      "badge": [
+        "danger",
+        "5"
+      ]
+    },
+    {
+      "url": "https://demos.themeselection.com/sneat-bootstrap-html-laravel-admin-template/demo-1/app/calendar",
+      "name": "Calendar",
+      "icon": "menu-icon tf-icons bx bx-calendar",
+      "slug": "app-calendar",
+      "target": "_blank",
+      "badge": [
+        "label-primary fs-tiny",
+        "Pro"
+      ]
+    },
+    {
+      "name": "Account Settings",
+      "icon": "menu-icon tf-icons bx bx bx-dock-top",
+      "slug": "pages-account-settings",
+      "submenu": [
+        {
+          "url": "pages/account-settings-account",
+          "name": "Account",
+          "slug": "pages-account-settings-account"
+        },
+        {
+          "url": "pages/account-settings-notifications",
+          "name": "Notifications",
+          "slug": "pages-account-settings-notifications"
+        }
+      ]
+    },
+    {
+      "name": "Authentications",
+      "icon": "menu-icon tf-icons bx bx-lock-open-alt",
+      "slug": "auth",
+      "submenu": [
+        {
+          "url": "auth/login-basic",
+          "name": "Login",
+          "slug": "auth-login-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/register-basic",
+          "name": "Register",
+          "slug": "auth-register-basic",
+          "target": "_blank"
+        },
+        {
+          "url": "auth/forgot-password-basic",
+          "name": "Forgot Password",
+          "slug": "auth-forgot-password-basic",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "name": "Misc",
+      "icon": "menu-icon tf-icons bx bx-cube-alt",
+      "slug": "pages-misc",
+      "submenu": [
+        {
+          "url": "pages/misc-error",
+          "name": "Error",
+          "slug": "pages-misc-error",
+          "target": "_blank"
+        },
+        {
+          "url": "pages/misc-under-maintenance",
+          "name": "Under Maintenance",
+          "slug": "pages-misc-under-maintenance",
+          "target": "_blank"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Forms & Tables"
+    },
+    {
+      "url": "tables/inventory",
+      "icon": "menu-icon tf-icons bx bx-package",
+      "name": "Inventory",
+      "slug": "tables-inventory",
+      "submenu": [
+        {
+          "url": "tables/inventory",
+          "name": "Manage Inventory",
+          "slug": "inventory-manage"
+        },
+        {
+          "url": "inventory/create",
+          "name": "Add Inventory",
+          "slug": "add-inventory"
+        },
+        {
+          "url": "inventory/report",
+          "name": "Inventory report",
+          "slug": "report-inventory"
+        }
+      ]
+    },
+    {
+      "url": "tables/basic",
+      "icon": "menu-icon tf-icons bx bx-box",
+      "name": "Product",
+      "slug": "tables-basic",
+      "submenu": [
+        {
+          "url": "tables/basic",
+          "name": "Manage product",
+          "slug": "product-manage"
+        },
+        {
+          "url": "product/add",
+          "name": "Add product",
+          "slug": "add-product"
+        }
+      ]
+    },
+    {
+      "url": "tables/Employers",
+      "icon": "menu-icon tf-icons bx bx-group",
+      "name": "Employers",
+      "slug": "tables-Employers",
+      "submenu": [
+        {
+          "url": "tables/Employers",
+          "name": "Manage Employers",
+          "slug": "Employers-manage"
+        },
+        {
+          "url": "Employers/add",
+          "name": "Add Employers",
+          "slug": "add-Employers"
+        }
+      ]
+    },
+    {
+      "url": "tables/selling-point",
+      "icon": "menu-icon tf-icons bx bx-purchase-tag",
+      "name": "selling point",
+      "slug": "tables-selling-point",
+      "submenu": [
+        {
+          "url": "tables/selling-point",
+          "name": "Manage selling point",
+          "slug": "selling-point-manage"
+        },
+        {
+          "url": "selling-point/add",
+          "name": "Add selling point",
+          "slug": "add-selling-point"
+        }
+      ]
+    },
+    {
+      "url": "tables/Category",
+      "icon": "menu-icon tf-icons bx bx-category",
+      "name": "Category",
+      "slug": "tables-Category",
+      "submenu": [
+        {
+          "url": "tables/Category",
+          "name": "Manage category",
+          "slug": "category-manage"
+        },
+        {
+          "url": "category/create",
+          "name": "Add category",
+          "slug": "add-category"
+        }
+      ]
+    },
+    {
+      "menuHeader": "Misc"
+    },
+    {
+      "url": "mailto:afnenthaebt@gmail.com",
+      "icon": "menu-icon tf-icons bx bx-support",
+      "name": "Support",
+      "slug": "support",
+      "target": "_blank"
+    },
+    {
+      "url": "https://laravel.com/docs/11.x/readme",
+      "icon": "menu-icon tf-icons bx bx-file",
+      "name": "Documentation",
+      "slug": "documentation",
+      "target": "_blank"
+    }
+  ]
+}
